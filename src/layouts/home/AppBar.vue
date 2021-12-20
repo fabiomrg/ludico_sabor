@@ -5,22 +5,24 @@
       app
       elevation="1"
       :height="barHeight"
+      color="#363435"
       >
         <home-menu/>
 
          <v-container>
         
           <v-row justify="center">
-            <v-col cols="10">
-                <v-img  
-                  class="mx-auto" 
-                  :max-height="imageHeight"
-                  :width="imageWidth"
-                  :src="require('@/assets/sammy_logo.jpg')"
+            
+                <base-img  
+                  class="mr-3" 
+                  contain
+                  max-width="145"
+                  width="100%"
+                  :src="require('@/assets/logo.jpg')"
                 
                 />
               
-            </v-col>
+            
           </v-row>
 
           <v-row no-gutters>

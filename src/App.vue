@@ -9,7 +9,7 @@
     name: 'App',
     metaInfo: {
       title: 'App',
-      titleTemplate: '%s | Sammy Gonzalez',
+      titleTemplate: '%s | Lúdico Sabor',
       htmlAttrs: { lang: 'en' },
       meta: [
         { charset: 'utf-8' },

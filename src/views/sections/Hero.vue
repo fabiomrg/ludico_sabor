@@ -2,9 +2,9 @@
   <section id="hero">
     <v-img
       :min-height="minHeight"
-      :src="require('@/assets/vegan-food.jpg')"
+      :src="require('@/assets/light.jpg')"
       class="white--text"
-      gradient="to bottom, rgba(20, 20, 20, .4), rgba(0,0,0,.3)"
+      gradient="to bottom, rgba(20, 20, 20, .1), rgba(0,0,0,.3)"
     >
       <v-container class="px-2 py-0">
         <v-responsive
@@ -14,20 +14,20 @@
           width="90%"
         >
         <br/><br/><br/>
-        <v-card class="rounded-xl" color="#0000004D">
+        <v-card class="rounded-xl" color="#0000007D">
           <br/><br/>
           <v-row class="mx-6" align="center">
             <base-subheading
             size="text-h5"
             weight="regular"
-            title="Veganismo é a grande ferramenta para transformar o mundo!"  
-            />
+            title="Cafés, lanches, doces e muito mais!"/>
             <base-body >
-              <p class="text-white">O ser humano por séculos tem se desconectado da natureza e por consequência lógica também se afastou das relações de compaixão pela terra de seus seres.</p>
-              <p class="text-white">O termo vegano já existe há 77 anos e foi criado pelo britânico Donald Watson e, desde então, transformou-se em um movimento político, ético e de estilo de vida, e vem ganhando muitos adeptos, mas hoje não é apenas isso, o veganismo é movimento.</p> 
-              <p class="text-white">Mas ainda temos muito a percorrer para que o mundo alcance o alinhamento e equilíbrio necessário para sermos sustentáveis em todos os âmbitos da nossa vida.</p>
-              <p class="text-white">Meu compromisso como Chef de gastronomia exclusivamente vegana é pensar, falar e praticar o veganismo, somente uma consciência livre de sofrimento vai transformar o planeta!</p>
-
+              <p class="text-white">Lúdico, do latim ludus, que remete ao que visa mais ao divertimento que a qualquer outro objetivo.  Uma atividade lúdica é uma atividade de entretenimento, que dá prazer e diverte as pessoas envolvidas.</p>
+              <p class="text-white">Neste sentido, a Lúdico Sabor visa entregar o prazer dos sabores contidos em uma boa carta de cafés, lanches de qualidade, maravilhosos doces e muito mais!</p> 
+              <p class="text-white">Como tudo que é lúdico envolve diversão, trazemos uma proposta onde os jogos modernos (sobretudo de tabuleiro) seja uma grata companhia dos sabores aqui encontrados.</p>
+              <p class="text-white">Nosso ambiente é, ao mesmo tempo, moderno e aconchegante. Faça daqui seu ponto de encontro, estudo, jogos ou um simples “bater ponto” para um ótimo café.</p>
+              <p class="text-white">Slow food =Nada de pressa. Não queremos ser mais uma atividade corrida pro seu dia a dia. Nesse mundo em que tudo está cada vez mais rápido, permita-se pausar para um momento lúdico.</p>
+              <p class="text-white">“Abraço”. Em tempos de pandemia e suas decorrências, sabemos que a segurança e higiene são ainda mais fundamentais. Todavia, com nosso jeito de ser iremos abraça-lo, não literalmente, mas com nossas propostas de lanches, cafés e diversão...e , para quem gosta, com algum “dedo de prosa”.</p>
             </base-body>
           </v-row>
         </v-card>

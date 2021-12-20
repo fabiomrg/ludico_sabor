@@ -1,46 +1,183 @@
 <template>
   <base-section id="theme-features">
- 
-    <base-section-heading id="servicos" title="Serviços">
-    </base-section-heading>
-    
-    <v-container>
-      <v-row>
-        <v-col
-          v-for="(feature, i) in features"
-          :key="i"
-          cols="12"
-          md="6"
-        >
-          <base-avatar-card
-            v-bind="feature"
-            align="left"
-            horizontal
-          >
-            {{text}}
-          </base-avatar-card>
-        </v-col>
-      </v-row>
-    </v-container>
-    <base-section-heading id="cursos" title="Cursos">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
-    </base-section-heading>
-     <base-section-heading id="consultoria" title="Consultoria">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
-    </base-section-heading>
-  
-
-   <base-section-heading id="about" title="Sammy Gonzalez">
+   <base-section-heading id="cardapio" title="Cardápio">
+   </base-section-heading>
+   <base-section-heading id="galeria" title="Galeria">
       <v-row justify="center">
-        <v-img 
-        max-width="300"
-        :src="require('@/assets/sammy.jpg')"
-        
-      ></v-img>
-      </v-row>
-      <br/>
-      Sou Sammy Gonzalez, crio e preparo pratos veganos, busco sempre surpreender com experiências sensoriais que marquem, valorizem e estimulem a apreciação da alimentação a base de plantas. Predominantemente utilizo produtos orgânicos vindos de pequenos produtores e da agricultura familiar.
-    </base-section-heading>
+        <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/19.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+          </v-img>
+        </v-col>
+        <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/12.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/21.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/18.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/16.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+      
+      <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/17.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/9.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/11.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/15.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/2.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/20.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/7.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/8.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+       <v-col
+          class="d-flex child-flex"
+          cols="4"
+        >
+          <v-img
+            :src="require('@/assets/3.jpg')"
+            
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+        </v-img>
+       </v-col>
+    </v-row> 
+   </base-section-heading>
 
   </base-section>
   

@@ -53,7 +53,7 @@
           <v-icon left>
             mdi-mail
           </v-icon>
-          chefsammyvegano@gmail.com
+          atendimento@ludicosabor.com.br
         </div>
 
         <v-divider class="my-6" />
@@ -65,14 +65,14 @@
           <v-icon left>
             mdi-phone
           </v-icon>
-          (11)98943-0389
+          (32)98899-1004
         </div>
 
         <v-divider class="my-6" />
 
         <base-btn
           block
-          href="https://api.whatsapp.com/send/?phone=5511989430389"
+          href="https://api.whatsapp.com/send/?phone=5532988991004"
           class="mb-6"
           color="black"
           outlined
@@ -85,7 +85,7 @@
         </base-btn>
           <base-btn
           block
-          href="https://instagram.com/chefsammygonzalez"
+          href="https://instagram.com/ludicosabor"
           class="mb-6"
           color="black"
           outlined
@@ -96,23 +96,7 @@
           </v-icon>
           Instagram
         </base-btn>
-          <base-btn
-          block
-          href="https://www.facebook.com/sammygonzalezchef"
-          class="mb-6"
-          color="black"
-          outlined
-          target="_blank"
-        >
-        <v-icon left>
-            mdi-facebook
-          </v-icon>
-          Facebook
-        </base-btn>
-        
-
-        
-    
+         
       </v-card-text>
     </v-card>
   </v-menu>

@@ -12,7 +12,7 @@
           class="text-center"
          
         >
-          Copyright &copy; {{ new Date().getFullYear() }} Sammy Gonzalez
+          Copyright &copy; {{ new Date().getFullYear() }} Lúdico Sabor
         </v-col>
       
     </v-container>

@@ -13,24 +13,28 @@
         color="transparent"
         title="Contato"
       >
-        Será um prazer poder ajudá-lo! Estamos aguardando seu contato:
+        Será um prazer poder atende-los! Estamos aguardando seu contato:
       </base-section-heading>
         
+         <v-icon right>
+          mdi-google-maps
+        </v-icon>
+        Endereço: Av. dos Andradas, 435 - Juiz de Fora - MG  <br/><br/>
         <v-icon right>
           mdi-whatsapp
         </v-icon>
-        (11) 98943-0389 <br/><br/>
+        (32) 98899-1004 <br/><br/>
         <v-icon left>
             mdi-mail
           </v-icon>
-          chefsammyvegano@gmail.com
+          atendimento@ludicosabor.com.br
           <br/><br/>
       <div class="py-4" />
 
       <v-btn
         class="font-weight-bold"
         color="white"
-        href="https://api.whatsapp.com/send/?phone=5511989430389&text=Olá! Preciso de ajuda para meu negócio."
+        href="https://api.whatsapp.com/send/?phone=5532988991004"
         light
         min-width="168"
         target="_blank"

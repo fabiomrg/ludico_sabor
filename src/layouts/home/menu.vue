@@ -15,13 +15,15 @@
       <v-card
         id="settings"
         class="py-2 px-4"
+        outlined
+        dark
         flat
         style="position: fixed; top: 20px; left: -5px;"
         width="70"
         v-bind="attrs"
         v-on="on"
       >
-        <v-icon large color="black">
+        <v-icon large color="white">
           mdi-menu
         </v-icon>
       </v-card>
@@ -40,49 +42,27 @@
         <v-divider class="my-6" />
         <base-btn
           block
-          @click="$vuetify.goTo('#about')"
+          @click="$vuetify.goTo('#cardapio')"
           class="mb-6"
           color="black"
           outlined
           target="_blank"
         >
         
-          Sobre mim
+          Cardápio
         </base-btn>
         <base-btn
           block
-          @click="$vuetify.goTo('#servicos')"
+          @click="$vuetify.goTo('#galeria')"
           class="mb-6"
           color="black"
           outlined
           target="_blank"
         >
-        
-          Serviços
-        </base-btn>
-          <base-btn
-          block
-          @click="$vuetify.goTo('#cursos')"
+         Galeria
           
-          class="mb-6"
-          color="black"
-          outlined
-          target="_blank"
-        >
-          Cursos
         </base-btn>
-          <base-btn
-          block
-          @click="$vuetify.goTo('#consultoria')"
-         
-          class="mb-6"
-          color="black"
-          outlined
-          target="_blank"
-        >
-          Consultoria
-        </base-btn>
-      
+          
           <base-btn
           block
           @click="$vuetify.goTo('#contatos')"
@@ -111,7 +91,7 @@
       return {
         colors: [
           this.$vuetify.theme.currentTheme.primary,
-          '#9368e9',
+          '#5568e9',
           '#F4511E',
         ],
         
