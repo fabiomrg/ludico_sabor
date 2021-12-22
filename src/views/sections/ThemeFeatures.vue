@@ -1,6 +1,8 @@
 <template>
   <base-section id="theme-features">
-   <base-section-heading id="cardapio" title="Cardápio">
+   <base-section-heading id="cardapio" title="Cardapio">
+   <v-img :src="require('@/assets/cardapio-ludicosabor.jpg')">
+   </v-img>
    </base-section-heading>
    <base-section-heading id="galeria" title="Galeria">
       <v-row justify="center">

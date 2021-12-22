@@ -49,7 +49,7 @@
           target="_blank"
         >
         
-          Cardápio
+          Cardapio
         </base-btn>
         <base-btn
           block
@@ -72,7 +72,7 @@
           outlined
           target="_blank"
         >
-          Contatos
+          Contato
         </base-btn>
         
 

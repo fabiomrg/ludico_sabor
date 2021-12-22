@@ -46,17 +46,6 @@
 
         <v-divider class="my-6" />
 
-        <div
-          class="mr-4"
-         
-        >
-          <v-icon left>
-            mdi-mail
-          </v-icon>
-          atendimento@ludicosabor.com.br
-        </div>
-
-        <v-divider class="my-6" />
 
        <div
           class="mr-4"

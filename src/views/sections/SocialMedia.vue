@@ -24,11 +24,7 @@
           mdi-whatsapp
         </v-icon>
         (32) 98899-1004 <br/><br/>
-        <v-icon left>
-            mdi-mail
-          </v-icon>
-          atendimento@ludicosabor.com.br
-          <br/><br/>
+        
       <div class="py-4" />
 
       <v-btn
