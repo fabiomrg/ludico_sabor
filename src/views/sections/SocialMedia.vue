@@ -13,7 +13,7 @@
         color="transparent"
         title="Contato"
       >
-        Será um prazer poder atende-los! Estamos aguardando seu contato:
+        Será um prazer poder atendê-los! Estamos aguardando seu contato:
       </base-section-heading>
         
          <v-icon right>
